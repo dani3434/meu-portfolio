@@ -15,7 +15,7 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: '/assets/portfolio1.webp',
+      src: '/meu-portfolio/assets/portfolio1.webp',
       alt: 'projeto image',
       title: 'Mern Chat',
       with: '360px',
@@ -30,7 +30,7 @@ export class ProjectsComponent {
       ],
     },
     {
-      src: '/assets/dogs.jpg',
+      src: '/meu-portfolio/assets/dogs.jpg',
       alt: 'projeto image',
       title: 'Dogs React',
       with: '1200px',
